@@ -1,26 +1,17 @@
-Componentes principales:
+## Componentes principales:
+Label: Etiquetas para los textos descriptivos.
+DatePicker: Selector de fecha.
+ColorPicker: Selector de color.
+Button: Botón para confirmar la selección.
+Label: Etiqueta para mostrar el resultado.
 
-    Label: Etiquetas para los textos descriptivos.
-    DatePicker: Selector de fecha.
-    ColorPicker: Selector de color.
-    Button: Botón para confirmar la selección.
-    Label: Etiqueta para mostrar el resultado.
-
-Diseño y disposición:
+## Diseño y disposición:
 
     VBox: Un layout vertical con un espaciado de 10 píxeles entre los componentes, centrado y con un padding de 10 píxeles.
 
-Funcionalidad:
+## Funcionalidad:
 
     Manejo de Eventos: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
-
-
-
-
-
-
-
-
 
 
 
@@ -80,3 +71,5 @@ public class InterfzaGUI extends Application {
 ![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/9ba37a10-43e7-4894-9dd5-ab478fdb508d)
 
 ![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/3c8f2dcd-9855-4f04-8e37-9285c8a561af)
+
+![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/858699f5-9bb8-4165-9829-f26179e397a0)
