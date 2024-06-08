@@ -1,23 +1,41 @@
+Componentes principales:
+
+    Label: Etiquetas para los textos descriptivos.
+    DatePicker: Selector de fecha.
+    ColorPicker: Selector de color.
+    Button: Botón para confirmar la selección.
+    Label: Etiqueta para mostrar el resultado.
+
+Diseño y disposición:
+
+    VBox: Un layout vertical con un espaciado de 10 píxeles entre los componentes, centrado y con un padding de 10 píxeles.
+
+Funcionalidad:
+
+    Manejo de Eventos: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
+
+
+
+
+
+
+
+
+
+
+
+
 package Main;
 
 import javafx.application.Application;
-
 import javafx.geometry.Insets;
-
 import javafx.geometry.Pos;
-
 import javafx.scene.Scene;
-
 import javafx.scene.control.Button;
-
 import javafx.scene.control.ColorPicker;
-
 import javafx.scene.control.DatePicker;
-
 import javafx.scene.control.Label;
-
 import javafx.scene.layout.VBox;
-
 import javafx.stage.Stage;
 
 public class InterfzaGUI extends Application {
