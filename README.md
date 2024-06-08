@@ -17,7 +17,8 @@ Label: Etiqueta para mostrar el resultado.
 
 
     
-  package Main;
+                                                                                                                package Main;  
+
 
   import javafx.application.Application;
 
