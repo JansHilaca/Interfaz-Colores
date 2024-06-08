@@ -1,20 +1,19 @@
-## Componentes principales:
-Label: Etiquetas para los textos descriptivos.
-DatePicker: Selector de fecha.
-ColorPicker: Selector de color.
-Button: Botón para confirmar la selección.
-Label: Etiqueta para mostrar el resultado.
+# Componentes principales:
+- **Label**: Etiquetas para los textos descriptivos.
+- **DatePicker**: Selector de fecha.
+- **ColorPicker**: Selector de color.
+- **Button**: Botón para confirmar la selección.
+- **Label**: Etiqueta para mostrar el resultado.
 
 ## Diseño y disposición:
-
-    VBox: Un layout vertical con un espaciado de 10 píxeles entre los componentes, centrado y con un padding de 10 píxeles.
+- **VBox**: Un layout vertical con un espaciado de 10 píxeles entre los componentes, centrado y con un padding de 10 píxeles.
 
 ## Funcionalidad:
+- **Manejo de Eventos**: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
 
-    Manejo de Eventos: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
+## Código Java
 
-java
-
+```java
 package Main;
 
 import javafx.application.Application;
@@ -32,7 +31,7 @@ public class InterfzaGUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        // Crear controles
+        // Creación de etiquetas y selectores
         Label fechaLabel = new Label("Selecciona una fecha:");
         DatePicker fechaPicker = new DatePicker();
         Label colorLabel = new Label("Selecciona un color:");
@@ -40,33 +39,37 @@ public class InterfzaGUI extends Application {
         Button botonConfirmar = new Button("Confirmar");
         Label resultadoLabel = new Label("Resultado:");
 
-        // Crear layout vertical (VBox)
-        VBox root = new VBox(10);
-        root.setPadding(new Insets(10));
-        root.setAlignment(Pos.CENTER);
+        // Configuración del VBox (layout vertical)
+        VBox root = new VBox(10);  // Espaciado de 10 píxeles entre componentes
+        root.setPadding(new Insets(10));  // Padding de 10 píxeles alrededor
+        root.setAlignment(Pos.CENTER);  // Centrando los componentes
 
-        // Agregar controles al layout
+        // Agregando todos los componentes al VBox
         root.getChildren().addAll(fechaLabel, fechaPicker, colorLabel, colorPicker, botonConfirmar, resultadoLabel);
 
-        // Acción al presionar el botón
+        // Manejo del evento del botón
         botonConfirmar.setOnAction(e -> {
+            // Obtener valores seleccionados
             String fechaSeleccionada = fechaPicker.getValue().toString();
             String colorSeleccionado = colorPicker.getValue().toString();
+            // Actualizar la etiqueta de resultado
             resultadoLabel.setText("Fecha seleccionada: " + fechaSeleccionada + "\nColor seleccionado: " + colorSeleccionado);
+            // Imprimir en consola
             System.out.println("Fecha seleccionada: " + fechaSeleccionada + ", Color seleccionado: " + colorSeleccionado);
         });
 
-        // Crear escena y mostrarla
-        Scene scene = new Scene(root, 300, 250);
-        primaryStage.setTitle("Fecha y Color GUI");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        // Configuración de la escena
+        Scene scene = new Scene(root, 300, 250);  // Dimensiones de la ventana
+        primaryStage.setTitle("Fecha y Color GUI");  // Título de la ventana
+        primaryStage.setScene(scene);  // Asignar la escena al escenario principal
+        primaryStage.show();  // Mostrar la ventana
     }
 
     public static void main(String[] args) {
-        launch(args); 
+        launch(args);  // Lanzar la aplicación JavaFX
     }
 }
+
 ## "Ejecutar"
 
 ![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/9ba37a10-43e7-4894-9dd5-ab478fdb508d)
