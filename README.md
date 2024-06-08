@@ -12,27 +12,18 @@ Label: Etiqueta para mostrar el resultado.
 ## Funcionalidad:
 
     Manejo de Eventos: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
-
+    
 package Main;
 
 import javafx.application.Application;
-
 import javafx.geometry.Insets;
-
 import javafx.geometry.Pos;
-
 import javafx.scene.Scene;
-
 import javafx.scene.control.Button;
-
 import javafx.scene.control.ColorPicker;
-
 import javafx.scene.control.DatePicker;
-
 import javafx.scene.control.Label;
-
 import javafx.scene.layout.VBox;
-
 import javafx.stage.Stage;
 
 public class InterfzaGUI extends Application {
@@ -69,7 +60,6 @@ public class InterfzaGUI extends Application {
         launch(args); 
     }
 }
-
 
 ## "Ejecutar"
 
