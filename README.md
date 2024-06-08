@@ -1,4 +1,7 @@
-# Componentes principales:
+# Interfaz de Fecha y Color en JavaFX
+
+## Componentes principales:
+
 - **Label**: Etiquetas para los textos descriptivos.
 - **DatePicker**: Selector de fecha.
 - **ColorPicker**: Selector de color.
@@ -6,15 +9,16 @@
 - **Label**: Etiqueta para mostrar el resultado.
 
 ## Diseño y disposición:
-- VBox: Un layout vertical con un espaciado de 10 píxeles entre los componentes, centrado y con un padding de 10 píxeles.
+
+- **VBox**: Un layout vertical con un espaciado de 10 píxeles entre los componentes, centrado y con un padding de 10 píxeles.
 
 ## Funcionalidad:
+
 - **Manejo de Eventos**: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
 
 ## Código Java
 
 ```java
-
 package Main;
 
 import javafx.application.Application;
@@ -62,6 +66,8 @@ public class InterfzaGUI extends Application {
         launch(args); 
     }
 }
+
+Ejecutar
 
 ## Ejecutar
 
