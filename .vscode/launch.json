@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InterfzaGUI",
+            "request": "launch",
+            "mainClass": "Main.InterfzaGUI",
+            "projectName": "Interfaz_Fecha_Color_62567a55",
+            "vmArgs": "--module-path c:\\Users\\jansh\\OneDrive\\Escritorio\\javafx-sdk-17.0.8\\lib --add-modules javafx.controls,javafx.fxml",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
