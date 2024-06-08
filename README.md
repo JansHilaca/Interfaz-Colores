@@ -14,6 +14,7 @@
 ## Código Java
 
 ```java
+
 package Main;
 
 import javafx.application.Application;
@@ -58,10 +59,9 @@ public class InterfzaGUI extends Application {
     }
 
     public static void main(String[] args) {
-        launch(args);
+        launch(args); 
     }
 }
-
 
 ## Ejecuccion:
 
