@@ -61,4 +61,9 @@ public class InterfzaGUI extends Application {
         launch(args);
     }
 }
+Ejecutar
+
+
+
+
 
