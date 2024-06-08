@@ -12,6 +12,24 @@ Label: Etiqueta para mostrar el resultado.
 ## Funcionalidad:
 
     Manejo de Eventos: El botón de confirmación obtiene la fecha y el color seleccionados, los muestra en la etiqueta de resultado y los imprime en la consola.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 package Main;
 
