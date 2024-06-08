@@ -1,5 +1,9 @@
 ## Ejecutar
+![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/a4f96b28-267e-48c9-81be-c77551ed0e50)
 
+![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/3b3bee5a-0648-49ce-9179-dd3397cf7c63)
+
+![imagen](https://github.com/JansHilaca/Interfaz-Colores/assets/168945853/7e8603f0-7fef-49e2-ac39-2f102b11d46d)
 
 
 
